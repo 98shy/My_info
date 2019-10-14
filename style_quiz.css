@@ -1,0 +1,51 @@
+@media only screen and (min-width: 440px){
+    .quiz_wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .quiz_wrap {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.quiz_wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    font-size: 20px;
+    background-color: coral;
+    text-align: center;
+}
+
+#explain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+#quiz {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 17px;
+    line-height: 180%;
+}
+
+#sumbit {
+    background-color: coral;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 20px 35%;
+    cursor: pointer;
+    font-size: 20px;
+}
